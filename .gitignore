@@ -1,0 +1,51 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Packaging
+*.egg-info/
+dist/
+build/
+
+# -----------------------------
+# Jupyter / VSCode
+# -----------------------------
+.ipynb_checkpoints/
+.vscode/
+
+# -----------------------------
+# System files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Data files (local datasets, outputs)
+# -----------------------------
+data/
+data_local/
+*.csv
+*.tsv
+*.h5
+*.sqlite
+*.db
+
+# -----------------------------
+# Model checkpoints
+# -----------------------------
+*.pt
+*.pth
+*.ckpt
