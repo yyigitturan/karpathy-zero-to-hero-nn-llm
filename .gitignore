@@ -41,7 +41,8 @@ data_local/
 *.tsv
 *.h5
 *.sqlite
-*.db
+*.db 
+*.txt
 
 # -----------------------------
 # Model checkpoints
